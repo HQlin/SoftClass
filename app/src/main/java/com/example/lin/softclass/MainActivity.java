@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
         webView = (WebView) findViewById(R.id.webview);
 
         //载入页面
-        webView.loadUrl("file:///android_asset/jsonData.html");
+        webView.loadUrl("file:///android_asset/index.html");
         //webview添加对js的支持
         WebSettings setting = webView.getSettings();
         setting.setJavaScriptEnabled(true);//支持js
